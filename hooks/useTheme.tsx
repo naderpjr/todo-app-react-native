@@ -49,8 +49,8 @@ const lightColors: ColorScheme = {
         success: ["#10b981", "#059669"],
         warning: ["#f59e0b", "#d97706"],
         danger: ["#ef4444", "#dc2626"],
-        muted: ["#9ca3af", "#6b7280"],
-        empty: ["#f3f4f6", "#e5e7eb"],
+        muted: ["#9ca3af", "#9ca3af"],
+        empty: ["#f3f4f6", "#f3f4f6"],
     },
     backgrounds: {
         input: "#ffffff",
@@ -61,7 +61,7 @@ const lightColors: ColorScheme = {
 
 const darkColors: ColorScheme = {
     bg: "#0f172a",
-    surface: "#1e293b",
+    surface: "#101825ff",
     text: "#f1f5f9",
     textMuted: "#94a3b8",
     border: "#334155",
@@ -71,14 +71,14 @@ const darkColors: ColorScheme = {
     danger: "#f87171",
     shadow: "#000000",
     gradients: {
-        background: ["#0f172a", "#1e293b"],
+        background: ["#0f172a", "#0f172a"],
         surface: ["#1e293b", "#334155"],
         primary: ["#3b82f6", "#1d4ed8"],
         success: ["#10b981", "#059669"],
         warning: ["#f59e0b", "#d97706"],
         danger: ["#ef4444", "#dc2626"],
-        muted: ["#374151", "#4b5563"],
-        empty: ["#374151", "#4b5563"],
+        muted: ["#374151", "#374151"],
+        empty: ["#374151", "#374151"],
     },
     backgrounds: {
         input: "#1e293b",
